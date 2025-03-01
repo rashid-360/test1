@@ -1,0 +1,45 @@
+# General
+.DS_Store
+node_modules/
+.env
+.env.local
+.env.*.local
+.vscode/
+.idea/
+*.log
+dist/
+# Ignore environment variables
+.env
+
+# React (Vite) specific
+.vite/
+*.cache/
+yarn.lock
+pnpm-lock.yaml
+
+# Django specific
+__pycache__/
+*.py[cod]
+*.sqlite3
+db.sqlite3
+/media/
+/staticfiles/
+/.venv/
+venv/
+migrations/*
+!migrations/__init__.py
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+Pipfile.lock
+
+# Virtual environment
+/venv/
+/.venv/
+
+# Logs and IDE settings
+*.log
+*.swp
+*.swo
